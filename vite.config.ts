@@ -14,6 +14,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default defineConfig({
+  base: '/vite-ts-tailwind-starter/',
   plugins: [
     vue(),
     AutoImport({
