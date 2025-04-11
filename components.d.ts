@@ -8,16 +8,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AnimatedTooltip: typeof import('./src/components/AnimatedTooltip.vue')['default']
-    BlurReveal: typeof import('./src/components/BlurReveal.vue')['default']
-    BorderBeam: typeof import('./src/components/BorderBeam.vue')['default']
-    CardBody: typeof import('./src/components/CardBody.vue')['default']
-    CardContainer: typeof import('./src/components/CardContainer.vue')['default']
-    CardItem: typeof import('./src/components/CardItem.vue')['default']
-    ElMenu: typeof import('element-plus/es')['ElMenu']
-    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
-    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
-    FallingStarsBg: typeof import('./src/components/FallingStarsBg.vue')['default']
     FlipWords: typeof import('./src/components/ui/flip-words/FlipWords.vue')['default']
     GradientButton: typeof import('./src/components/ui/gradient-button/GradientButton.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
@@ -25,10 +15,7 @@ declare module 'vue' {
     MainHeader: typeof import('./src/components/MainHeader.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Section2: typeof import('./src/components/page/section-2.vue')['default']
-    ShimmerButton: typeof import('./src/components/ShimmerButton.vue')['default']
     StaticFooter: typeof import('./src/components/StaticFooter.vue')['default']
-    TextHighlight: typeof import('./src/components/TextHighlight.vue')['default']
     Vortex: typeof import('./src/components/ui/vortex/Vortex.vue')['default']
     WavyBackground: typeof import('./src/components/ui/wavy-background/WavyBackground.vue')['default']
   }
